@@ -77,7 +77,7 @@ const HydraTerminal: React.FC = () => {
 
     const connect = () => {
       try {
-        ws = new WebSocket('ws://localhost:3000/ws');
+ws = new WebSocket('wss://jubilant-funicular-69rwr5q9gp6r2jg-3000.app.github.dev/ws');
         
         ws.onopen = () => {
           setIsConnected(true);
